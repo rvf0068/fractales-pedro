@@ -14,3 +14,8 @@ for i in range(30000):
     y0 = y1
     z0 = z1
     print x1,y1,z1
+
+# con gnuplot en 3d
+# splot 'r.dat' with lines
+# solo la primera coordenada
+# plot 'r.dat' using 1 with lines
