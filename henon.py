@@ -8,3 +8,7 @@ for i in range(500000):
     x0 = x1
     y0 = y1
     print x1, y1
+
+# python henon.py > a.dat
+# en gnuplot:
+# plot 'a.dat' with points pointsize 0.1
